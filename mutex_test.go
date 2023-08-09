@@ -69,3 +69,7 @@ func TestArrayCopy(t *testing.T) {
 	fmt.Printf("values : %v \n", ints)
 	fmt.Printf("values : %v \n", pointer)
 }
+
+func testAtomic() {
+	fmt.Println("atomic")
+}
